@@ -4,6 +4,7 @@ import RenderModel from "@/components/RenderModel";
 import Wizard from "@/components/models/Wizard";
 import Staff from "@/components/models/Staff";
 import HatModel from "@/components/models/HatModel";
+import Navigation from "@/components/navigation";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       />
 
       <div className="w-screen h-screen">
+        <Navigation />
         <RenderModel>
           <Wizard />          
         </RenderModel>        
