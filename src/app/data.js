@@ -7,13 +7,6 @@ Websites:
 - https://skillicons.dev (Skill Icons to show skills)
 - https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
 
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
 */
 
 export const projectsData = [
@@ -21,50 +14,50 @@ export const projectsData = [
     id: 1,
     name: "AskData",
     description: "Query your data",
-    date: "2022-08-15",
+    status: "Deployed",
     demoLink: "https://askdata-theta.vercel.app/",
   },
   {
     id: 2,
     name: "Pathshala",
     description: "AR/VR EdTech platform",
-    date: "2022-06-20",
-    demoLink: "https://github.com/ksraavya/pathshala",
+    status: "Deployed",
+    demoLink: "https://drive.google.com/file/d/19M_hYdvSbpDAQYzpKmFnoPncFsbN3vW5/view?usp=sharing",
   },
   {
     id: 3,
     name: "Inkling",
     description: "Blog website",
-    date: "2022-09-10",
+    status: "Yet to be deployed",
     demoLink: "https://github.com/ksraavya/blog",
   },
   {
     id: 4,
     name: "Taskly",
     description: "Task manager",
-    date: "2022-05-30",
+    status: "Yet to be deployed",
     demoLink: "https://github.com/ksraavya/task-manager",
   },
   {
     id: 5,
     name: "Civis",
     description: "Know your benefits and rights",
-    date: "2022-07-12",
+    status: "Development",
     demoLink: "https://github.com/ksraavya/civis",
   },
   {
     id: 6,
     name: "Startup Sphere",
     description: "Website for college society",
-    date: "2022-10-01",
+    status: "Completed",
     demoLink: "https://github.com/ksraavya/ssphere",
   },
   {
     id: 7,
     name: "Klimate",
     description: "Weather app",
-    date: "2022-04-18",
-    demoLink: "https://github.com/ksraavya/climate-app",
+    status: "Deployed",
+    demoLink: "https://react-app-climate2.netlify.app/",
   },  
 ];
 
